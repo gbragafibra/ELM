@@ -7,7 +7,7 @@ class ELM:
         self.y = y #y_train (one_hot_encoded)
         self.input_dim = self.X.shape[1]
         self.hidden_dim = hidden_dim
-        self.W = np.random.rand(self.input_dim, self.hidden_dim)
+        self.W = np.random.randn(self.input_dim, self.hidden_dim)
         
     def input_hidden(self, X): #compute output of input -> hidden layer
         return ReLU(np.dot(X, self.W))
