@@ -1,9 +1,10 @@
 # Extreme Learning Machine (ELM)
 
-Implementation of a Extreme Learning Machine (ELM) for MNIST digit recognition.
+Implementation of a Extreme Learning Machine (ELM) for MNIST digit recognition (60k patterns).
 
+### Performance (70/30 split)
 
-
+![performance](performance.png)
 
 #### Resources:
 
